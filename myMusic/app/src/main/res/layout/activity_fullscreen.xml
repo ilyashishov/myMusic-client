@@ -19,8 +19,18 @@
     <ImageButton
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton1"
         android:layout_gravity="center"
-        android:background="@drawable/button1" />
+        android:onClick="onMyButtonClick"
+        android:background="@drawable/button1"
+        android:alpha="1"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top" />
 
 </FrameLayout>
