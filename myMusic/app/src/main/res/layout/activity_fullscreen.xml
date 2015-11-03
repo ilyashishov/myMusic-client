@@ -17,9 +17,10 @@
         android:background="@drawable/fon1"></FrameLayout>
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/imageButton"
         android:layout_gravity="center"
-        android:background="@mipmap/ic_launcher" />
+        android:background="@drawable/button1" />
+
 </FrameLayout>
