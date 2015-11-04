@@ -20,8 +20,6 @@ import android.widget.TextView;
  */
 public class FullscreenActivity extends Activity {
 
-    TextView textView;
-    Button imageButton1;
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -54,16 +52,6 @@ public class FullscreenActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fullscreen);
-
-        textView = (TextView) findViewById(R.id.textView);
-        imageButton1 = (Button) findViewById(R.id.imageButton1);
-
-        imageButton1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                imageButton1.setAlpha(0);
-            }
-        });
     }
 
     @Override
