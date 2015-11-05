@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
     private RandomAccessFile randomAccessWriter;
 
+    gifView gifView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         button = (Button) findViewById(R.id.button);
         textView = (TextView) findViewById(R.id.textView);
-
+        gifView = (gifView) findViewById(R.id.dif_view);
 
 //        button.setOnClickListener(new View.OnClickListener() {
 //            int i = 1;

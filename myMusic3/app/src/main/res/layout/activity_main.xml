@@ -17,22 +17,33 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"></FrameLayout>
 
+    <com.example.stalk.mymusic.gifView
+    android:id="@+id/dif_view"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="27dp" />
+
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/button"
         android:background="@drawable/button1"
-        android:layout_centerVertical="true"
         android:onClick="recordStart"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="20"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#edeaff"
+        android:alpha="0" />
 
 </RelativeLayout>
